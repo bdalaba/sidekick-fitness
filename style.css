@@ -1,0 +1,108 @@
+/*Style for all pages*/
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #1D2630;
+}
+
+.navbar,
+footer {
+    background-color: #343F4C;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+p,
+li {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    color: #00C8FF;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+.card {
+    background-color: #293542;
+    color: white;
+}
+
+.card-header {
+    background-color: #343F4C;
+    padding-top: 25px;
+}
+
+.faded {
+    color: #D8D9DB;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#final-thoughts {
+    text-align: center;
+}
+
+
+/*Landing page specific code: index.html*/
+#welcome-hero > div.container {
+    background-color: #343F4C;
+}
+
+form {
+    background-color: #293542;
+}
+
+
+.form-floating > label {
+    color: gray;
+}
+
+
+
+
+/*Homebrew specific styles: homebrew.html*/
+#introduction,
+#recipes {
+    margin-top: 50px;
+}
+
+#tips > .card > .card-header {
+    background-color: #1ABC9C;
+}
+
+#cautions > .card > .card-header {
+    background-color: #E74C3C;
+}
+
+section#tips > div.card {
+    background-color: #16A085;
+}
+
+section#cautions > div.card {
+    background-color: #C0392B;
+}
+
+/*Recipes page specific styles: recipes.html*/
+
+
+
+
+
